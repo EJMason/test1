@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/EJMason/test1/compare/v1.0.1...v1.0.2) (2020-07-02)
+
+
+### Bug Fixes
+
+* 🐛 Make config publish to github registry ([2885917](https://github.com/EJMason/test1/commit/2885917e96426e1df10d0233fdb5b249d59ef66a))
+* 🐛 Make NPM use proper token ([2c179b6](https://github.com/EJMason/test1/commit/2c179b69f9fc22451eebfe996bfb0d40691ee043))
+
 ## [1.0.1](https://github.com/EJMason/test1/compare/v1.0.0...v1.0.1) (2020-07-02)
 
 
