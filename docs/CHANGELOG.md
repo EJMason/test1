@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/EJMason/test1/compare/v1.0.0...v1.0.1) (2020-07-02)
+
+
+### Bug Fixes
+
+* 🐛 Update some names in github release ([4e25f8e](https://github.com/EJMason/test1/commit/4e25f8ecbbb8a23d0ed5647b7c5c6ceada59f984))
+
 # 1.0.0 (2020-07-02)
 
 
