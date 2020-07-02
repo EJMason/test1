@@ -5,7 +5,7 @@ on:
             - master
 jobs:
     release:
-        name: Release
+        name: Publish NPM Module
         runs-on: ubuntu-18.04
         steps:
             - name: Checkout
@@ -27,4 +27,5 @@ jobs:
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+                  NPM_CONFIG_REGISTRY: https://npm.pkg.github.com/ejmason
               run: npx semantic-release
