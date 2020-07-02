@@ -26,6 +26,6 @@ jobs:
             - name: Publish to Github, generate docs and add git tags
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+                  NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   NPM_CONFIG_REGISTRY: https://npm.pkg.github.com/ejmason
               run: npx semantic-release
