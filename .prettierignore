@@ -1,0 +1,6 @@
+dist/
+logs/
+.nyc_output/
+.vscode/
+
+package-lock.json
