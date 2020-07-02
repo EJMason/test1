@@ -4,7 +4,7 @@ module.exports = {
         {
             files: '*.spec.ts',
             options: {
-                printWidth: 120,
+                printWidth: 121,
             },
         },
         {
