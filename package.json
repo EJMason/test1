@@ -27,7 +27,7 @@
     "build": "",
     "clean": "rimraf dist",
     "clean:all": "npm run clean -- node_modules",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "config": {
     "commitizen": {
