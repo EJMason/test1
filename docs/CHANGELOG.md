@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/EJMason/test1/compare/v1.0.2...v1.1.0) (2020-07-02)
+
+
+### Features
+
+* 🎸 add more stuff ([0cd1f02](https://github.com/EJMason/test1/commit/0cd1f020f894f0ce805d260f8763d69afec17fca))
+* 🎸 fix package.lock ([fa565d0](https://github.com/EJMason/test1/commit/fa565d08f38be4ea6616fc014eaf04f92a8a42bf))
+
 ## [1.0.2](https://github.com/EJMason/test1/compare/v1.0.1...v1.0.2) (2020-07-02)
 
 
