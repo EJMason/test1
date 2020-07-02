@@ -17,13 +17,13 @@ jobs:
             - name: Install dependencies
               run: npm ci
 
-            - name: Compile typescript
+            - name: Compile Typescript
               run: npm run build
 
-            - name: Compile typescript
+            - name: Run Unit Tests
               run: npm run test
 
-            - name: Release
+            - name: Publish to Github, generate docs and add git tags
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
