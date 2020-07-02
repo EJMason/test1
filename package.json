@@ -1,5 +1,5 @@
 {
-  "name": "test1",
+  "name": "@ejmason/test1",
   "version": "1.0.0",
   "description": "Trying out template",
   "repository": {
@@ -19,7 +19,7 @@
   ],
   "license": "ISC",
   "engines": {
-    "node": ">=8.9"
+    "node": ">=10.18"
   },
   "main": "index.js",
   "types": "./dist/index.d.ts",
@@ -52,6 +52,9 @@
     "ts-node": "8.10.2",
     "tsconfig-paths": "3.9.0",
     "typescript": "3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ejmason"
   },
   "husky": {
     "hooks": {

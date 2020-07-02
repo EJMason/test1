@@ -13,5 +13,17 @@ module.exports = {
                 tabWidth: 2,
             },
         },
+        {
+            files: 'config.yml',
+            options: {
+                tabWidth: 2,
+            },
+        },
+        {
+            files: 'release.config.yml',
+            options: {
+                printWidth: 200,
+            },
+        },
     ],
 }
